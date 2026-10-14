@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Confira o catálogo digital da HG Jersey 10 e peça sua camisa de futebol pelo WhatsApp.">
+<title>HG Jersey 10 | Catálogo Digital</title>
+<style>
+:root{--bg:#0b0b0d;--panel:#151519;--text:#f7f7f8;--muted:#b6b6be;--accent:#d8ff36;--line:#29292f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(11,11,13,.94);backdrop-filter:blur(12px);z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 0}.brand{font-weight:900;letter-spacing:1px;font-size:1.2rem}.brand span{color:var(--accent)}.navlinks{display:flex;gap:20px;color:var(--muted);font-size:.92rem}
+.hero{padding:72px 0 58px;background:radial-gradient(ellipse at 80% 10%,#343b19 0,transparent 40%),linear-gradient(130deg,#111114,#0b0b0d 65%)}
+.kicker{color:var(--accent);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2.5rem,7vw,5rem);line-height:.98;letter-spacing:-2px;margin:16px 0;max-width:760px}
+.hero p{color:var(--muted);font-size:1.08rem;line-height:1.7;max-width:580px}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:#10110a;font-weight:800;padding:14px 20px;border-radius:7px;margin-top:14px;transition:transform .2s}.btn:hover{transform:translateY(-2px)}
+section{padding:54px 0}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:24px}.sectionhead h2{font-size:clamp(1.7rem,4vw,2.5rem);margin:8px 0 0}.sectionhead p{color:var(--muted);margin:0}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 24px}.filter{border:1px solid var(--line);color:var(--text);background:transparent;padding:9px 13px;border-radius:999px;cursor:pointer}.filter.active,.filter:hover{background:var(--accent);color:#111;border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.photo{aspect-ratio:4/4.2;background:linear-gradient(145deg,#25252b,#121216);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;color:#d6d6dc;text-align:center;padding:18px}
+.photo:before{content:"";position:absolute;width:62%;height:76%;border:2px dashed #55555d;border-radius:18px;transform:rotate(-8deg);opacity:.7}
+.photo .placeholder{z-index:1;font-size:.85rem;line-height:1.5;max-width:180px}.photo img{position:absolute;width:100%;height:100%;object-fit:cover;inset:0}
+.cardbody{padding:17px;display:flex;flex-direction:column;gap:10px;flex:1}.tag{font-size:.72rem;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:1px}.card h3{margin:0;font-size:1.1rem}.desc{color:var(--muted);font-size:.9rem;line-height:1.5;margin:0}.price{font-size:1.35rem;font-weight:900;margin-top:2px}.buy{display:block;text-align:center;background:#24242a;border:1px solid #38383f;padding:11px;border-radius:7px;font-weight:700;margin-top:auto}.buy:hover{background:var(--accent);color:#111;border-color:var(--accent)}
+.note{border:1px solid var(--line);padding:18px;border-radius:10px;color:var(--muted);line-height:1.65;background:#111114}.about{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.aboutbox{border-radius:12px;padding:28px;background:linear-gradient(140deg,#202219,#131316);border:1px solid var(--line)}.aboutbox h3{font-size:1.7rem;margin:0 0 10px}.aboutbox p{color:var(--muted);line-height:1.7}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.wa-float{position:fixed;right:18px;bottom:18px;background:#25d366;color:#06190d;padding:14px 18px;border-radius:999px;font-weight:900;box-shadow:0 8px 30px #0008;z-index:6}
+@media(max-width:760px){.navlinks{gap:12px;font-size:.8rem}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about{grid-template-columns:1fr}.hero{padding:54px 0 42px}.sectionhead{align-items:start;flex-direction:column}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.navlinks a:nth-child(2){display:none}.brand{font-size:1rem}.photo{aspect-ratio:4/3}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#"><span>HG</span> JERSEY 10</a>
+  <nav class="navlinks"><a href="#catalogo">Catálogo</a><a href="#sobre">Sobre a loja</a><a href="#contato">Contato</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="kicker">Paixão pelo futebol</div>
+  <h1>Sua próxima camisa<br>está aqui.</h1>
+  <p>Explore o catálogo da HG Jersey 10. Escolha seu modelo, confira o preço e fale com a gente para confirmar tamanho e disponibilidade.</p>
+  <a class="btn" href="#catalogo">VER CATÁLOGO ↓</a>
+</div></section>
+<section id="catalogo"><div class="wrap">
+  <div class="sectionhead"><div><div class="kicker">Escolha a sua</div><h2>Catálogo de camisas</h2></div><p>Preços e modelos editáveis</p></div>
+  <div class="filters" id="filters"></div>
+  <div class="grid" id="products"></div>
+  <p class="note" style="margin-top:22px">📌 <strong>Antes de comprar:</strong> confirme pelo WhatsApp o tamanho, a disponibilidade, o prazo de entrega e as opções de pagamento. As imagens e os preços deste modelo são campos de demonstração e devem ser atualizados antes de divulgar o catálogo.</p>
+</div></section>
+<section id="sobre"><div class="wrap about">
+  <div><div class="kicker">HG Jersey 10</div><h2 style="font-size:2.4rem;line-height:1.05">O futebol faz parte da gente.</h2><p style="color:var(--muted);line-height:1.75">Um espaço para encontrar camisas de futebol e escolher seu próximo manto. Estamos aqui para ajudar você a encontrar o modelo ideal.</p></div>
+  <div class="aboutbox"><h3>Gostou de algum modelo?</h3><p>Chame no WhatsApp para consultar tamanhos, estoque e finalizar seu pedido de forma simples.</p><a class="btn" id="aboutWhatsapp" href="#">PEDIR PELO WHATSAPP</a></div>
+</div></section>
+<section id="contato" style="padding-top:0"><div class="wrap"><div class="note"><strong style="color:var(--text)">Atendimento HG Jersey 10</strong><br>Pedidos e dúvidas pelo WhatsApp: <span id="phoneText"></span><br><a id="contactLink" class="btn" href="#">FALAR COM A LOJA</a></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> HG Jersey 10</span><span>Catálogo digital • Camisas de futebol</span></div></footer>
+<a class="wa-float" id="floatWhatsapp" href="#" aria-label="Pedir pelo WhatsApp">WhatsApp ↗</a>
+<script>
+// EDITE OS PRODUTOS ABAIXO: nome, categoria, preço, descrição e foto.
+// Para adicionar foto, coloque o arquivo na pasta "fotos" e use, por exemplo: foto: "fotos/camisa-time.jpg"
+const WHATSAPP = "5511991641683";
+const products = [
+ {nome:"Camisa de Time — Modelo 01",categoria:"Times",preco:0,descricao:"Informe aqui o time, temporada e tipo de camisa.",foto:"",tag:"Destaque"},
+ {nome:"Camisa de Time — Modelo 02",categoria:"Times",preco:0,descricao:"Adicione os detalhes do modelo e os tamanhos disponíveis.",foto:"",tag:"Novidade"},
+ {nome:"Camisa de Seleção — Modelo 01",categoria:"Seleções",preco:0,descricao:"Informe a seleção, temporada e tipo de camisa.",foto:"",tag:"Seleções"},
+ {nome:"Camisa Retrô — Modelo 01",categoria:"Retrô",preco:0,descricao:"Conte um pouco sobre este modelo retrô.",foto:"",tag:"Retrô"},
+ {nome:"Camisa de Time — Modelo 03",categoria:"Times",preco:0,descricao:"Adicione descrição, tamanhos e disponibilidade.",foto:"",tag:"Torcedor"},
+ {nome:"Camisa de Seleção — Modelo 02",categoria:"Seleções",preco:0,descricao:"Informe os detalhes deste produto.",foto:"",tag:"Seleções"}
+];
+const money = n => n > 0 ? n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"}) : "Preço a definir";
+const wa = (message) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(message)}`;
+const categories = ["Todos",...new Set(products.map(p=>p.categoria))];
+const filters = document.getElementById("filters");
+let selected = "Todos";
+categories.forEach(c=>{const b=document.createElement("button");b.className="filter"+(c===selected?" active":"");b.textContent=c;b.onclick=()=>{selected=c;document.querySelectorAll(".filter").forEach(x=>x.classList.toggle("active",x.textContent===c));render()};filters.appendChild(b)});
+function render(){const root=document.getElementById("products");root.innerHTML="";products.filter(p=>selected==="Todos"||p.categoria===selected).forEach(p=>{
+ const card=document.createElement("article");card.className="card";
+ const photo=document.createElement("div");photo.className="photo";
+ if(p.foto){const img=document.createElement("img");img.src=p.foto;img.alt=p.nome;photo.appendChild(img)}
+ else {const ph=document.createElement("div");ph.className="placeholder";ph.innerHTML="📷<br><strong>ADICIONE A FOTO</strong><br>Substitua por uma foto do produto";photo.appendChild(ph)}
+ const body=document.createElement("div");body.className="cardbody";
+ body.innerHTML=`<div class="tag">${p.tag||p.categoria}</div><h3>${p.nome}</h3><p class="desc">${p.descricao}</p><div class="price">${money(p.preco)}</div>`;
+ const buy=document.createElement("a");buy.className="buy";buy.href=wa(`Olá! Tenho interesse no produto: ${p.nome}. Preço anunciado: ${money(p.preco)}. Pode me informar tamanhos e disponibilidade?`);buy.target="_blank";buy.rel="noopener";buy.textContent="Consultar / pedir no WhatsApp";
+ body.appendChild(buy);card.append(photo,body);root.appendChild(card);
+})}
+render();
+document.getElementById("year").textContent=new Date().getFullYear();
+document.getElementById("phoneText").textContent="(11) 99164-1683";
+document.getElementById("contactLink").href=wa("Olá! Vim pelo catálogo digital da HG Jersey 10.");
+document.getElementById("aboutWhatsapp").href=wa("Olá! Vim pelo catálogo digital da HG Jersey 10 e gostaria de fazer um pedido.");
+document.getElementById("floatWhatsapp").href=wa("Olá! Vim pelo catálogo digital da HG Jersey 10.");
+</script>
+</body></html>
